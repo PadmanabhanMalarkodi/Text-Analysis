@@ -18,6 +18,14 @@ Categorize text into predefined classes or labels.
 
 **Note: Here, I choose to work on all these techniques.**
 
+## Libraries/Modules used for this project:
+* spaCy
+* Gensim
+* TextBlob
+* Numpy
+* Pandas
+* Scikit-learn
+  
 ## 1. Text Classification
 Text classification is a natural language processing (NLP) task where the goal is to assign predefined categories or labels to a given piece of text. It's a fundamental task in NLP and has a wide range of applications, including spam detection, topic categorization, and more.
 
@@ -122,3 +130,5 @@ The output of LDA is a set of topics, where each topic is represented by a distr
 ##### Use Cases:
 * LDA is used for document classification, clustering, and summarization.
 * It's commonly applied in areas such as information retrieval, content recommendation, and understanding the themes in large text corpora.
+  
+**In this project, I performed topic modelling on text column in the data set and extracted the relationship between topics in the document.**
