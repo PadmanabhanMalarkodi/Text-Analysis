@@ -18,13 +18,16 @@ Categorize text into predefined classes or labels.
 
 **Note: Here, I choose to work on all these techniques.**
 
-## Libraries/Modules used for this project:
+## Tools used for this project:
+* Python
+* Jupyter Notebook
 * spaCy
 * Gensim
 * TextBlob
 * Numpy
 * Pandas
 * Scikit-learn
+* Matplotlib
   
 ## 1. Text Classification
 Text classification is a natural language processing (NLP) task where the goal is to assign predefined categories or labels to a given piece of text. It's a fundamental task in NLP and has a wide range of applications, including spam detection, topic categorization, and more.
