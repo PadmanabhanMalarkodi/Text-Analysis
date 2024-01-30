@@ -23,11 +23,13 @@ Text classification is a natural language processing (NLP) task where the goal i
 
 Here's a general overview of the text classification process:
 
-#### Data Collection:
+#### i) Data Collection:
 
 Gather a dataset with labeled examples of text. Each example should be associated with a category or label.
 
-#### Data Preprocessing:
+**Here, I used real and fake news classification dataset.**
+
+#### ii) Data Preprocessing:
 
 Clean and preprocess the text data. Common preprocessing steps include:
 * **Lowercasing**: Convert all text to lowercase to ensure consistency.
@@ -35,7 +37,7 @@ Clean and preprocess the text data. Common preprocessing steps include:
 * **Removing Stop Words**: Exclude common words that do not contribute much to the meaning.
 * **Lemmatization or Stemming**: Reduce words to their base or root form.
 
-#### Feature Extraction:
+#### iii) Feature Extraction:
 
 Convert the preprocessed text into a numerical format suitable for machine learning algorithms. Common techniques include:
 * **Bag of Words (BoW)**: Represent each document as a vector of word frequencies.
@@ -44,7 +46,7 @@ Convert the preprocessed text into a numerical format suitable for machine learn
 
 **In this project I used word embedding technique**
 
-#### Model Training:
+#### iv) Model Training:
 
 Choose a classification algorithm and train the model on the labeled data. Common algorithms for text classification include:
 Naive Bayes
@@ -54,18 +56,18 @@ Deep Learning models (e.g., LSTM, GRU, or Transformer-based models)
 
 **In this project, I used Naive Bayes Classifier and Gradient Boosting Classifier.**
 
-#### Evaluation:
+#### v) Evaluation:
 
 Assess the performance of the trained model using metrics such as accuracy, precision, recall, and F1-score. Split the dataset into training and testing sets to evaluate generalization performance.
 
-#### Fine-Tuning and Optimization (If required):
+#### vi) Fine-Tuning and Optimization (If required):
 
 Adjust hyperparameters, try different algorithms, or perform feature engineering to improve the model's performance.
 Inference:
 
 **Use the trained model to classify new, unseen text into predefined categories.**
 
-## Sentiment Analysis
+## 2. Sentiment Analysis
 Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) task that involves determining the sentiment or emotional tone expressed in a piece of text. The goal is to classify the sentiment as positive, negative, or neutral. Sentiment analysis has applications in customer feedback analysis, social media monitoring, product reviews, and more.
 
 #### Sentiment Analysis using TextBlob
