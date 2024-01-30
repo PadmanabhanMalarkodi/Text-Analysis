@@ -64,3 +64,11 @@ Adjust hyperparameters, try different algorithms, or perform feature engineering
 Inference:
 
 **Use the trained model to classify new, unseen text into predefined categories.**
+
+## Sentiment Analysis
+Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) task that involves determining the sentiment or emotional tone expressed in a piece of text. The goal is to classify the sentiment as positive, negative, or neutral. Sentiment analysis has applications in customer feedback analysis, social media monitoring, product reviews, and more.
+
+#### Sentiment Analysis using TextBlob
+The sentiment.polarity method of TextBlob calculates a sentiment polarity score for each article, where positive values indicate positive sentiment, negative values indicate negative sentiment and values close to zero suggest a more neutral tone.
+
+**Note: In this project, sentiment analysis is performed on the text column in the dataset to assess the overall sentiment or emotional tone of the news articles. The TextBlob library is used here to analyze the sentiment polarity, which quantifies whether the text expresses positive, negative, or neutral sentiment.**
