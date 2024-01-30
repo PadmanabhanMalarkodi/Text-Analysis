@@ -30,10 +30,10 @@ Gather a dataset with labeled examples of text. Each example should be associate
 #### Data Preprocessing:
 
 Clean and preprocess the text data. Common preprocessing steps include:
-**Lowercasing**: Convert all text to lowercase to ensure consistency.
-**Tokenization**: Break the text into individual words or tokens.
-**Removing Stop Words**: Exclude common words that do not contribute much to the meaning.
-**Lemmatization or Stemming**: Reduce words to their base or root form.
+* **Lowercasing**: Convert all text to lowercase to ensure consistency.
+* **Tokenization**: Break the text into individual words or tokens.
+* **Removing Stop Words**: Exclude common words that do not contribute much to the meaning.
+* **Lemmatization or Stemming**: Reduce words to their base or root form.
 
 #### Feature Extraction:
 
