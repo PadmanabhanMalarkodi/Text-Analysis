@@ -16,4 +16,51 @@ Extract entities such as names, locations, organizations, etc.
 ### Text Classification:
 Categorize text into predefined classes or labels.
 
-*Note:* Here, I choose to work on all these techniques.
+**Note: Here, I choose to work on all these techniques.**
+
+## 1. Text Classification
+Text classification is a natural language processing (NLP) task where the goal is to assign predefined categories or labels to a given piece of text. It's a fundamental task in NLP and has a wide range of applications, including spam detection, topic categorization, and more.
+
+Here's a general overview of the text classification process:
+
+#### Data Collection:
+
+Gather a dataset with labeled examples of text. Each example should be associated with a category or label.
+
+#### Data Preprocessing:
+
+Clean and preprocess the text data. Common preprocessing steps include:
+**Lowercasing**: Convert all text to lowercase to ensure consistency.
+**Tokenization**: Break the text into individual words or tokens.
+**Removing Stop Words**: Exclude common words that do not contribute much to the meaning.
+**Lemmatization or Stemming**: Reduce words to their base or root form.
+
+#### Feature Extraction:
+
+Convert the preprocessed text into a numerical format suitable for machine learning algorithms. Common techniques include:
+**Bag of Words (BoW)**: Represent each document as a vector of word frequencies.
+**TF-IDF (Term Frequency-Inverse Document Frequency)**: Weigh words based on their importance in a document relative to the entire corpus.
+**Word Embeddings**: Represent words as dense vectors in a continuous vector space.
+
+**In this project I used word embedding technique**
+
+#### Model Training:
+
+Choose a classification algorithm and train the model on the labeled data. Common algorithms for text classification include:
+Naive Bayes
+Support Vector Machines (SVM)
+Logistic Regression
+Deep Learning models (e.g., LSTM, GRU, or Transformer-based models)
+
+**In this project, I used Naive Bayes Classifier and Gradient Boosting Classifier.**
+
+#### Evaluation:
+
+Assess the performance of the trained model using metrics such as accuracy, precision, recall, and F1-score. Split the dataset into training and testing sets to evaluate generalization performance.
+
+#### Fine-Tuning and Optimization (If required):
+
+Adjust hyperparameters, try different algorithms, or perform feature engineering to improve the model's performance.
+Inference:
+
+**Use the trained model to classify new, unseen text into predefined categories.**
