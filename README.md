@@ -15,3 +15,5 @@ Extract entities such as names, locations, organizations, etc.
 
 ### Text Classification:
 Categorize text into predefined classes or labels.
+
+*Note:* Here, I choose to work on all these techniques.
