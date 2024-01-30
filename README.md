@@ -38,9 +38,9 @@ Clean and preprocess the text data. Common preprocessing steps include:
 #### Feature Extraction:
 
 Convert the preprocessed text into a numerical format suitable for machine learning algorithms. Common techniques include:
-**Bag of Words (BoW)**: Represent each document as a vector of word frequencies.
-**TF-IDF (Term Frequency-Inverse Document Frequency)**: Weigh words based on their importance in a document relative to the entire corpus.
-**Word Embeddings**: Represent words as dense vectors in a continuous vector space.
+* **Bag of Words (BoW)**: Represent each document as a vector of word frequencies.
+* **TF-IDF (Term Frequency-Inverse Document Frequency)**: Weigh words based on their importance in a document relative to the entire corpus.
+* **Word Embeddings**: Represent words as dense vectors in a continuous vector space.
 
 **In this project I used word embedding technique**
 
